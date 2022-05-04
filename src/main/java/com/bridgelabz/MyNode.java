@@ -10,7 +10,7 @@ public class MyNode<K> {
     }
 
     public void setNext(MyNode next) {
-        this.next = next;
+         this.next = next;
     }
 
     public MyNode(K key) {
