@@ -34,6 +34,12 @@ public class MyLinkedList {
         }
     }
 
+    public void insert(MyNode<Integer> myNode, MyNode<Integer> newNode) {
+        INode tempNode = myNode.getNext();
+        myNode.setNext(newNode);
+        newNode.setNext(tempNode);
+    }
+
 
     public void printMyNode() {
         StringBuffer myNodes = new StringBuffer("My Nodes: ");

@@ -1,5 +1,6 @@
 package com.bridgelabz;
 
+
 public interface INode<K> {
     K getKey();
 
